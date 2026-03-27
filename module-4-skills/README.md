@@ -26,11 +26,8 @@ When you invoke a skill (e.g., `/stride-threat-model`), Claude reads the `SKILL.
 
 ## Instructions
 
-1. Copy the `.claude/skills/` directory from this module into your project root
+1. Copy the `/skills/` directory from this module into your project root
 2. Launch Claude Code: `claude`
 3. Invoke the skill: type `/stride-threat-model` in Claude Code
 4. Claude will follow the STRIDE methodology and produce a `threat.md` file
 
-## Files
-
-- [`.claude/skills/stride-threat-model/SKILL.md`](.claude/skills/stride-threat-model/SKILL.md) - STRIDE threat modelling skill
