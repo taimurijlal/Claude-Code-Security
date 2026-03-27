@@ -63,7 +63,7 @@ Scans content for hardcoded secrets (AWS keys, GCP keys, API tokens, passwords, 
 
 ## Instructions
 
-1. Copy the `.claude/hooks/` directory from this module into your project root
+1. Copy the scripts in this module into your project .claude/hooks/
 2. Make the scripts executable: `chmod +x .claude/hooks/*.sh`
 3. Copy `settings.json` to your project's `.claude/` directory
 4. Launch Claude Code — hooks are now active
@@ -83,9 +83,3 @@ Try asking Claude to:
 - **Hook scripts can have bugs.** Test and code-review like any security-critical code.
 - **Over-hooking kills productivity.** Hook only what you need to enforce.
 
-## Files
-
-- [`settings.json`](settings.json) - Hook configuration for Claude Code
-- [`.claude/hooks/pre-bash-firewall.sh`](.claude/hooks/pre-bash-firewall.sh) - Dangerous command blocker
-- [`.claude/hooks/pre-write-path-guard.sh`](.claude/hooks/pre-write-path-guard.sh) - Protected file path guard
-- [`.claude/hooks/pre-write-secret-scan.sh`](.claude/hooks/pre-write-secret-scan.sh) - Secret detection scanner
