@@ -29,7 +29,7 @@ CLAUDE.md can also be placed in subdirectories for module-specific rules, or in 
 ## Instructions
 
 1. Review the example in [`examples/CLAUDE.md`](examples/CLAUDE.md)
-2. Copy it to the root of your project
+2. Copy it to the root of your project ( make sure to remove any markup . copy it from raw and not preview )
 3. Customise it for your project's technology stack, compliance requirements, and security policies
 4. Launch Claude Code — it will load the file automatically
 
