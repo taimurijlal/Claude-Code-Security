@@ -1,4 +1,4 @@
-# Claude Code for Cybersecurity Professionals
+# [Claude Code for Cybersecurity Professionals](https://www.udemy.com/course/mastering-claude-code-for-cybersecurity-professionals)
 
 A hands-on course teaching cybersecurity professionals how to leverage Claude Code as an agentic AI platform for security activities. Progress from basic terminal interactions to building fully automated security workflows powered by AI sub-agents, MCP integrations, and custom security skills.
 
